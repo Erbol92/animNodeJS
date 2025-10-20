@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.collapsible {
+    background-color: #332197;
+    color: #f7f7f7;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.collapsible:hover {
+    background-color: #ccc;
+}
+
+.content {
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    background-color: white;
+    margin-bottom: 5px;
+}
